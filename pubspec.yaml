@@ -23,7 +23,6 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  google_fonts: ^0.3.5
 
 dev_dependencies:
   flutter_test:
@@ -51,6 +50,27 @@ flutter:
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
+
+
+
+  fonts:
+    - family: Circular
+      fonts:
+        - asset: fonts/CircularStd-Medium.ttf
+        - asset: fonts/CircularAir-Light.ttf
+          weight: 100
+        - asset: fonts/CircularStd-Bold.ttf
+          weight: 500
+    - family: avenir
+      fonts:
+        - asset: fonts/Avenir-Book.ttf
+        - asset: fonts/Avenir-Heavy.ttf
+          weight: 700
+        - asset: fonts/Avenir-Medium.ttf
+          weight: 500
+        - asset: fonts/Avenir-Light.ttf
+          weight: 300
+
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_login_signup/src/signup.dart';
-import 'package:google_fonts/google_fonts.dart';
-
 import 'Widget/bezierContainer.dart';
 
 class LoginPage extends StatefulWidget {
@@ -203,8 +201,7 @@ class _LoginPageState extends State<LoginPage> {
       textAlign: TextAlign.center,
       text: TextSpan(
           text: 'd',
-          style: GoogleFonts.portLligatSans(
-            textStyle: Theme.of(context).textTheme.bodyText1,
+          style:TextStyle(
             fontSize: 30,
             fontWeight: FontWeight.w700,
             color: Color(0xffe46b10),
